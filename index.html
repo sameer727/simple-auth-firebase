@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimpleAuth Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2 id="formTitle">Login</h2>
+        <div id="error" class="error"></div>
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Password" id="password" />
+        <button id="submitBtn" onclick="handleAuth()">Login</button>
+        <div class="toggle-form" onclick="toggleForm()">Don't have an account? Sign up</div>
+    </div>
+
+    <script type="module" src="auth.js"></script>
+</body>
+</html>
